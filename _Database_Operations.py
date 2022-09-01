@@ -239,9 +239,6 @@ def table_updater():
                     Criminals.update({Criminals.distinguishing_marks: distinguishing}).where(
                         Criminals.id == Criminals.get(Criminals.entity_id == entity_id)).execute()
 
-                # TODO: Find a way to update all data; Languages, Arrest warrants etc.
-                # TODO: There have to be loops, but we also need an index structure to have all data correctly from the database.
-                # TODO: Below lines are trials for the task described above.
                 for m in range(len((data_self["languages_spoken_ids"]))):
                     print(Languages.select().where(
                         Languages.id == Criminals.get(Criminals.entity_id == entity_id)).get().language)
