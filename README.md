@@ -4,7 +4,7 @@
 
 <br>
 
-## Criminals are updating day-to-day.
+## Criminals are being updated day-to-day.
 
 <br>
 
