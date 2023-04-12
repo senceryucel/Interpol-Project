@@ -8,4 +8,4 @@
 
 <br>
 
-## Once the script runned, tables are created. For every further runs, tables are being updated with respect to data from https://www.interpol.int/en/How-we-work/Notices/View-Red-Notices.
+## Once the script is runned, tables are being created. For every further run, tables are being updated with respect to data that has been scraped from https://www.interpol.int/en/How-we-work/Notices/View-Red-Notices.
